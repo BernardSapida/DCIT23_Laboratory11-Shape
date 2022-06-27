@@ -3,13 +3,13 @@ public class App {
     public static void main(String[] args) throws Exception {
         Scanner in = new Scanner(System.in);
         
-        // System.out.print("\nEnter Rectangle Width: ");
-        // int rectangleWidth = in.nextInt();
+        System.out.print("\nEnter Rectangle Width: ");
+        int rectangleWidth = in.nextInt();
         
-        // System.out.print("Enter Rectangle Height: ");
-        // int rectangleHeight = in.nextInt();
+        System.out.print("Enter Rectangle Height: ");
+        int rectangleHeight = in.nextInt();
 
-        // createRectangle(rectangleWidth, rectangleHeight);
+        createRectangle(rectangleWidth, rectangleHeight);
         
         System.out.print("\nEnter Triangle Size (NORMAL): ");
         int triangleSize = in.nextInt();
